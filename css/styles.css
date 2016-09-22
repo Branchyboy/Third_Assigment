@@ -1,0 +1,119 @@
+*{
+	box-sizing: border-box;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+body {
+	background-color: #5CF25F;
+	color: #218505;
+}
+
+h1 {
+  margin-bottom: 35px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  
+  
+}
+
+p{
+	margin: 0px;
+	padding: 15px;
+	color: black;
+	text-align: justify;
+	font-size: 1em;
+}
+
+a{
+	background-color: #F8FF3B;
+}
+
+}
+
+.container{
+	margin-left:0;
+
+
+}
+
+#header-nav {
+	background-color:#F2AA5C; 
+	border-radius:0;
+	border:0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+
+}
+
+#Food-navbar-collapse{
+	  border: 2px 2px 0px 2px solid #218505;
+	  padding: 0px;
+	  text-align: center;
+	  
+
+}
+.section {
+  background-color: #F2AA5C;    
+  position: relative;    
+  margin-right: 15px;    
+  margin-left: 15px;    
+  margin-bottom: 30px;    
+  padding: 0px;    
+  padding-top: 0px;
+  border-radius: 10px;
+  border: 2px;
+  border-color: #218505;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #5CF25F;
+}
+
+ul.nav{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.chicken {
+background-color: #F2AA5C;  
+color: #218505;
+}
+.beef {
+background-color: #F2AA5C;  
+color:#218505;
+}
+.sushi {
+background-color: #F2AA5C;  
+color:#218505;
+}
+
+/*Large Devices*/
+@media(min-width: 992px){
+	.col-lg-4 {
+		float: left;
+		width: 33.3%;
+	}
+
+}
+
+/*Medium Devices*/
+@media(min-width: 768px) and (max-width: 991px){
+	.col-md-6 {
+		float: left;
+		width: 50%
+	}
+
+		.col-md-12 {
+		float: left;
+		width: 100%;
+	}
+}
